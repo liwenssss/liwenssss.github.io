@@ -96,7 +96,35 @@
             </table>
             <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
               <tbody>
-                <!-- Publication 1 -->
+                <tr onmouseout="bog_stop()" onmouseover="bog_start()">
+                  <td style="padding:20px;width:25%;vertical-align:middle">
+                    <div class="one">
+                      <img src='files\papers\cgi_zhu\zhu_cgi.png' width="100%">
+                    </div>
+                    <script type="text/javascript">
+                      function bog_start() {
+                        document.getElementById('bog_image1').style.opacity = "1";
+                      }
+                      function bog_stop() {
+                        document.getElementById('bog_image1').style.opacity = "0";
+                      }
+                      bog_stop();
+                    </script>
+                  </td>
+                  <td style="padding:20px;width:75%;vertical-align:top">
+                    <span class="papertitle">Feature Replacement in Gaussian Splatting for 3D Stylization</span>
+                    <br>
+                    Jinkeng Zhu, 
+                    <strong>Wensheng Li</strong>, 
+                    Chengying Gao*, 
+                    <br>
+                    <em>Computer Graphics International (CGI, 2025)</em>
+                    <br>
+                    [<a href="">pdf</a>]
+                    <p>We introduce a feature replacement module that utilizes reversible network to decouple content and style features, ensuring the effective substitution of style information while preserving scene content.</p>
+                  </td>
+                </tr>
+                <!-- Publication -->
                 <tr onmouseout="bog_stop()" onmouseover="bog_start()">
                   <td style="padding:20px;width:25%;vertical-align:middle">
                     <div class="one">
@@ -126,7 +154,7 @@
                     <p>We present a novel approach for efficiently modeling dynamic humans and achieving realistic renderings by integrating neural human representations.</p>
                   </td>
                 </tr>
-                <!-- Publication 2 -->
+                <!-- Publication -->
                 <tr onmouseout="bog_stop()" onmouseover="bog_start()">
                   <td style="padding:20px;width:25%;vertical-align:middle">
                     <div class="one">
@@ -156,7 +184,7 @@
                     <p>We propose DanceComposer, a framework for the automatic generation of appropriate music from dance videos.</p>
                   </td>
                 </tr>
-                <!-- Publication 3 -->
+                <!-- Publication -->
                 <tr onmouseout="bog_stop()" onmouseover="bog_start()">
                   <td style="padding:20px;width:25%;vertical-align:middle">
                     <div class="one">
