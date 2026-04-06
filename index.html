@@ -84,6 +84,34 @@
                 </tr>
               </tbody>
             </table>
+            <!-- Experience Section -->
+            <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+              <tbody>
+                <tr>
+                  <td style="padding:20px;width:100%;vertical-align:middle">
+                    <h2>Experience</h2>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+            <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+              <tbody>
+                <tr onmouseout="bog_stop()" onmouseover="bog_start()" style="height:100%;">
+                  <td style="padding:20px;width:25%;vertical-align:middle;height:100%;">
+                    <div class="one" style="display: flex; align-items: center; height: 100%;">
+                      <img src='images\tencent.webp' width="100%">
+                    </div>
+                  </td>
+                  <td style="padding:20px;width:75%;vertical-align:middle;height:100%;">
+                    <div style="display: flex; align-items: center; height: 100%;">
+                      <ul style="list-style-type: none; padding: 0; margin: 0;">
+                        <li>2021~2022: Tencent Technology (Shenzhen) Co., Ltd., Applied Research</li>
+                      </ul>
+                    </div>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
             <!-- Publications Section -->
             <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
               <tbody>
@@ -96,6 +124,35 @@
             </table>
             <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
               <tbody>
+                <tr onmouseout="bog_stop()" onmouseover="bog_start()">
+                  <td style="padding:20px;width:25%;vertical-align:middle">
+                    <div class="one">
+                      <img src='files\papers\ICME2026-ZHENG.png' width="100%">
+                    </div>
+                    <script type="text/javascript">
+                      function bog_start() {
+                        document.getElementById('bog_image1').style.opacity = "1";
+                      }
+                      function bog_stop() {
+                        document.getElementById('bog_image1').style.opacity = "0";
+                      }
+                      bog_stop();
+                    </script>
+                  </td>
+                  <td style="padding:20px;width:75%;vertical-align:top">
+                    <span class="papertitle">Mitigating Density Imbalance in 3D Gaussian Splatting for Few-Shot Reconstruction</span>
+                    <br>
+                    Rongbin Zheng,
+                    <strong>Wensheng Li</strong>,
+                    Lingzhe Zeng, Dongwang, Chengying Gao*
+                    <br>
+                    <em>IEEE International Conference on Multimedia and Expo (ICME), 2026.</em>
+                    <br>
+                    [<a href="">pdf</a>]
+                    <p> We propose a novel framework that mitigates density imbalance in 3D Gaussian Splatting for few-shot reconstruction. </p>
+                  </td>
+                </tr>
+
                 <tr onmouseout="bog_stop()" onmouseover="bog_start()">
                   <td style="padding:20px;width:25%;vertical-align:middle">
                     <div class="one">
@@ -118,7 +175,7 @@
                     <strong>Wensheng Li</strong>, 
                     Chengying Gao*
                     <br>
-                    <em>IEEE Computer Vision and Pattern Recognition (CVPR, 2026)</em>
+                    <em>IEEE Computer Vision and Pattern Recognition (CVPR), 2026.</em>
                     <br>
                     [<a href="">pdf</a>]
                     <p> We introduce IR-HGP, a framework that achieves robust disentanglement using three synergistic modules:First, a Hybrid Visibility Decomposition module ensures physical visibility consistency. Second, a  Generative Illumination Field Prior module infers detailed and high-dynamic range environmental lighting. Finally, a  Physics-Aware Radiance Correction module stabilizes optimization and mitigates illumination artifacts. </p>
@@ -147,7 +204,7 @@
                     <strong>Wensheng Li</strong>, 
                     Lingzhe Zeng, Dongwang, Chengying Gao*
                     <br>
-                    <em>IEEE Computer Vision and Pattern Recognition (CVPR, 2026)</em>
+                    <em>IEEE Computer Vision and Pattern Recognition (CVPR), 2026.</em>
                     <br>
                     [<a href="">pdf</a>]
                     <p> We propose a photometrically consistent integration of human and scene reconstruction based on 3D Gaussian Splatting, with a key focus on modeling spatially-varying illumination and shadows. </p>
@@ -177,7 +234,7 @@
                     Rongbin Zheng,
                     Chengying Gao*, 
                     <br>
-                    <em>IEEE Transactions on Circuits and Systems for Video Technology (TCSVT, 2025)</em>
+                    <em>IEEE Transactions on Circuits and Systems for Video Technology (TCSVT), 2025.</em>
                     <br>
                     [<a href="">pdf</a>]
                     <p> We propose a novel approach called ReGA, which leverages efficient 3D Gaussian Splatting to create animatable and relightable avatars from sparse-view human motion.</p>
@@ -206,7 +263,7 @@
                     <strong>Wensheng Li</strong>, 
                     Chengying Gao*, 
                     <br>
-                    <em>Computer Graphics International (CGI, 2025)</em>
+                    <em>Computer Graphics International (CGI), 2025</em>
                     <br>
                     [<a href="">pdf</a>]
                     <p>We introduce a feature replacement module that utilizes reversible network to decouple content and style features, ensuring the effective substitution of style information while preserving scene content.</p>
@@ -236,7 +293,7 @@
                     Chengying Gao, 
                     Ning Liu*
                     <br>
-                    <em>IEEE Transactions on Visualization and Computer Graphics (TVCG, 2024)</em>
+                    <em>IEEE Transactions on Visualization and Computer Graphics (TVCG), 2024</em>
                     <br>
                     [<a href="files/papers/tvcg_efficient_human_2024/Efficient_Integration_of_Neural_Representations_for_Dynamic_Humans.pdf">pdf</a>]
                     <p>We present a novel approach for efficiently modeling dynamic humans and achieving realistic renderings by integrating neural human representations.</p>
@@ -266,7 +323,7 @@
                     <a href="https://mesunhlf.github.io/">Lifeng Huang</a>, 
                     Chengying Gao*
                     <br>
-                    <em>IEEE Transactions on Multimedia (TMM, 2024)</em>
+                    <em>IEEE Transactions on Multimedia (TMM), 2024</em>
                     <br>
                     [<a href="https://ieeexplore.ieee.org/abstract/document/10539267">pdf</a>]
                     <p>We propose DanceComposer, a framework for the automatic generation of appropriate music from dance videos.</p>
